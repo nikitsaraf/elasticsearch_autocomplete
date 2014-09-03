@@ -33,7 +33,7 @@ module ElasticsearchAutocomplete
         :ac_edge_ngram_full => {
             :type => 'custom',
             :tokenizer => 'ac_edge_ngram_full',
-            :filter => %w(lowercase asciifolding word_delimiter)
+            :filter => %w(lowercase asciifolding)
         },
         :ac_edge_ngram_word => {
             :type => 'custom',
